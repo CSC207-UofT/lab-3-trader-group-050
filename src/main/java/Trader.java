@@ -93,10 +93,13 @@ public class Trader {
         /* After writing your own Tradable object, add an instance
          * (or multiple instances of it) to the all_items list below.
          */
-        List<Tradable> all_items = Arrays.asList(
+        List<Tradable> all_items;
+        all_items = Arrays.asList(
                 new Horse(),
                 new Horse(),
-                new Horse()
+                new Horse(),
+                new Keyboard("Razer"),
+                new Keyboard()
                 // TODO: Add Tradable objects here!
         );
 
